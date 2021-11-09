@@ -175,7 +175,6 @@ h1 {
 }
 
 .container-3 {
-    /* height: 100%; */
     width: fit-content;
     padding-left: 260px;
     padding-right: 260px;
@@ -209,9 +208,68 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
+    padding-bottom: 200px;
 }
 
 
 .p-3-2 {
     font-size: 18px;
+}
+
+.container-4 {
+    background-color: #20113D;
+    height: 220px;
+    width: 100%;
+    padding: 50px 260px 50px 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.p-4-1 {
+    color: white;
+    font-size: 18px;
+}
+
+.p-4-2 {
+    color: white;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.donate {
+    height: 50px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #20113D;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrow {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #F58021;
+    background-color: #F58021;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
