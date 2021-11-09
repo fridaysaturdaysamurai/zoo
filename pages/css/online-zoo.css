@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;                 
+    }
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(/assets/fonts/Montserrat-Regular.ttf); 
+}
+
+body {
+    font-family: "Montserrat";
+    width: 99vw;                      
+    height: 100vh;
+}
+
+.container-1 {
+    height: 110px;
+    background-color: #F58021;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    padding-left: 260px;
+    padding-right: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 40px;
+}
+
+.green-color {
+    color: #00A092;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a:hover {
+cursor: pointer;
+}
+
+.right-p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.fa-youtube {
+    color: #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.youtube {
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #FF0000;
+    border-radius: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.fa-instagram {
+    color: #C13584;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram {
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #C13584;
+    border-radius: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.fa-facebook {
+    color: #3B5998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook {
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #3B5998;
+    border-radius: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.container-2 {
+    height: 800px;
+    background-image: url(/assets/img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flex-2 {
+    margin-left: 260px;
+    margin-right: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 82px;
+    font-weight: 800;
+    color: #00A092;
+}
+
+.p2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-2 {
+    width: 240px;
+    height: 75px;
+    border-radius: 5px;
+    border: 1px solid #F58021;
+    background-color: #F58021;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-2:hover {
+    cursor: pointer;
+    color: #F58021;
+    background-color: white;
+}
+
+.fa-long-arrow-alt-right {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.container-3 {
+    /* height: 100%; */
+    width: fit-content;
+    padding-left: 260px;
+    padding-right: 260px;
+    margin-top: 150px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-size: 54px;
+    font-weight: 600;
+    color: #00A092;
+    margin-bottom: 50px;
+}
+
+.p-3-1 {
+    font-size: 18px;
+}
+
+.eagle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
