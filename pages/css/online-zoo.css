@@ -282,8 +282,7 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .pets {
@@ -324,6 +323,13 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+ 
+.animals {
+    overflow: hidden;
+    padding: 100px 0px 40px 260px;
+    display: flex;
+    
 }
 
 .panda {
@@ -369,9 +375,262 @@ span {
     text-align: center;    
 }
 
-.panda-a {
+.animal-a {
     color: #F58021;
 }
+
+.lemur {
+    margin-left: 40px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #20113D;
+    color: white;
+    position: relative;
+} 
+
+.lemur-img {
+    position: relative;
+    z-index: 3;
+}
+
+.lemur-h {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.lemur-p {
+    font-size: 18px;
+    padding: 10px 40px 20px 40px;
+    line-height: 30px;
+    text-align: center; 
+    white-space: pre-line;
+}
+
+.gorilla {
+    margin-left: 40px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #20113D;
+    color: white;
+    position: relative;
+} 
+
+.gorilla-img {
+    position: relative;
+    z-index: 3;
+}
+
+.gorilla-h {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.gorilla-p {
+    font-size: 18px;
+    padding: 10px 40px 20px 40px;
+    line-height: 30px;
+    text-align: center; 
+}
+
+.alligator {
+    margin-left: 40px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #20113D;
+    color: white;
+    position: relative;
+} 
+
+.alligator-img {
+    position: relative;
+    z-index: 3;
+}
+
+.alligator-h {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.alligator-p {
+    font-size: 18px;
+    padding: 10px 40px 20px 40px;
+    line-height: 30px;
+    text-align: center; 
+    white-space: pre-line;
+}
+
+.animals-1 {
+    overflow: hidden;
+    padding: 40px 0px 70px 260px;
+    display: flex; 
+}
+
+.sam {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #20113D;
+    color: white;
+    position: relative;
+} 
+
+.sam-img {
+    position: relative;
+    z-index: 3;
+}
+
+.sam-h {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.sam-p {
+    font-size: 18px;
+    padding: 10px 40px 20px 40px;
+    line-height: 30px;
+    text-align: center; 
+}
+
+.liz {
+    margin-left: 40px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #20113D;
+    color: white;
+    position: relative;
+} 
+
+.liz-img {
+    position: relative;
+    z-index: 3;
+}
+
+.liz-h {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.liz-p {
+    font-size: 18px;
+    padding: 10px 40px 20px 40px;
+    line-height: 30px;
+    text-align: center; 
+}
+
+.lion {
+    margin-left: 40px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #20113D;
+    color: white;
+    position: relative;
+} 
+
+.lion-img {
+    position: relative;
+    z-index: 3;
+}
+
+.lion-h {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.lion-p {
+    font-size: 18px;
+    padding: 10px 40px 20px 40px;
+    line-height: 30px;
+    text-align: center; 
+}
+
+.tiger {
+    margin-left: 40px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #20113D;
+    color: white;
+    position: relative;
+} 
+
+.tiger-img {
+    position: relative;
+    z-index: 3;
+}
+
+.tiger-h {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.tiger-p {
+    font-size: 18px;
+    padding: 10px 40px 20px 40px;
+    line-height: 30px;
+    text-align: center; 
+}
+
+.choose {
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.choose:hover {
+    cursor: pointer;
+}
+
+.choose-favorite {
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
