@@ -612,21 +612,305 @@ span {
     padding-bottom: 100px;
 }
 
+.container-6 {
+    background-color: #20113D;
+    height: 100%;
+}
 
+.h-2-6 {
+    color: white;
+    font-size: 54px;
+    padding: 75px 0px 0px 260px;
+}
 
+.hr1 {
+    padding: 50px 260px 0px 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.p-6 {
+    font-size: 26px;
+    color: white;
+}
 
+.hr-1 {
+    width: 1280px;
+    height: 1px;
+}
 
+.monkey {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 260px 50px 260px;
+}
 
+.right-p6 {
+    display: flex;flex-direction: column;
+}
 
+.heartgreen {
+    height: 80px;
+    width: 70px;
+    padding-bottom: 20px;
+}
 
+.h-3-6 {
+    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 500px;
+}
 
+.p-6-1 {
+    font-size: 18px;
+    color: white;
+    width: 560px;
+}
 
+.banan {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 260px 50px 260px;
+}
 
+.monkey-banan {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 260px 50px 260px;
+}
 
+.donate-now {
+    height: 50px;
+    width: 200px;
+    border: 1px solid #F58021;
+    border-radius: 5px;
+    background-color: #F58021;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.knopka {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
+.donate-now:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #F58021;
+}
 
+.container-7 {
+    padding-top: 150px;
+    height: 1600px;
+    background-image: url(/assets/img/background\ 1.png);
+}
+
+.left-7 {
+    width: 650px;
+    padding-left: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h-3-7 {
+    text-transform: uppercase;
+    font-size: 54px;
+}
+
+.p-3-7 {
+    color: white;
+    font-size: 26px;
+    width: 560px;
+}
+
+.flexx {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-1 {
+    display: flex;
+    align-items: center;
+}
+
+.first-2 {
+    display: flex;
+    align-items: center;
+}
+
+.june {
+    background-color: white;
+    width: 515px;
+    padding: 20px 50px 70px 50px;
+    border-radius: 10px;
+}
+
+.block-1 {
+padding-right: 20px;
+padding-bottom: 20px;
+}
+
+.block-2 {
+    padding-bottom: 20px;
+}
+
+.block-3 {
+    padding-left: 20px;
+}
+
+.zap {
+    font-size: 120px;
+    height: 70px;
+    font-weight: 800;
+}
+
+.city {
+    font-size: 26px;
+    padding-top: 20px;
+}
+
+.p-month {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.citata {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+.strelki {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.color-arr {
+    color: white;
+}
+
+.left-arr {
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-arr {
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.knopka-7 {
+    margin-top: 450px;
+    margin-left: 260px;
+}
+
+.btn-7 {
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.btn-7:hover {
+    cursor: pointer;
+}
+
+.text-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.h-2-8 {
+    text-transform: uppercase;   
+    width: 650px;
+}
+
+.p-2-8 {
+    font-size: 28px;
+    width: 650px;
+}
+
+.part-1 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 260px 50px 260px;
+}
+
+.koala-8 {
+    padding-right: 20px;
+}
+
+.panda-8 {
+    width: 440px;
+    height: 658px;
+    background-color: #20113D;
+}
+
+.panda-p-8 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 25px 80px 25px;
+}
+
+.feed-8 {
+    color: #F58021;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.part-2 {
+    padding: 0px 260px 50px 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tv {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
 
 
 
