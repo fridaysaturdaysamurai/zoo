@@ -377,6 +377,7 @@ span {
 
 .animal-a {
     color: #F58021;
+    padding-bottom: 70px;
 }
 
 .lemur {
@@ -911,6 +912,106 @@ padding-bottom: 20px;
     margin: 0 auto;
     padding-bottom: 150px;
 }
+
+footer {
+    background-color: #20113D;
+}
+
+.foot {
+    background-color: #20113D;
+    padding: 50px 260px 50px 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a-foot {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-foot {
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-8 {
+    margin: 20px 260px 20px 260px;
+    border: 1px solid white;
+    height: 1px;
+}
+
+.foot-2 {
+    padding: 30px 260px 30px 260px;
+}
+
+.ul-8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul-8-1 {
+    width: 500px;
+}
+
+.li-8 {
+    color: white;
+    font-size: 18px;
+}
+
+.logo-end {
+    display: flex;
+
+}
+
+.youtube-8 {
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #FF0000;
+    border-radius: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.instagram-8 {
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #C13584;
+    border-radius: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.facebook-8 {
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #3B5998;
+    border-radius: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+}
+
 
 
 
