@@ -171,7 +171,7 @@ h1 {
     background-color: white;
 }
 
-.fa-long-arrow-alt-right {
+.arr-1 {
     margin-left: 10px;
     font-size: 20px;
 }
@@ -273,6 +273,11 @@ h3 {
     align-items: center;
 }
 
+.donate:focus {
+    outline: none;
+    border-color: #F58021;
+} 
+
 ::-webkit-input-placeholder {
     color: white;
     text-align: center;
@@ -294,6 +299,8 @@ span {
 .arrow {
     height: 74px;
     width: 80px;
+    font-size: 20px;
+    font-weight: 600;
     border: 1px solid white;
     color: white;
     border-left: none;
@@ -733,6 +740,11 @@ span {
     padding: 70px 260px 50px 260px;
 }
 
+.monkey-without-banan {
+    width: 560px;
+    height: 364px;
+}
+
 .right-p6 {
     display: flex;flex-direction: column;
 }
@@ -769,10 +781,20 @@ span {
     padding: 70px 260px 50px 260px;
 }
 
+.banan-img {
+    width: 560px;
+    height: 364px;
+}
+
 .monkey-banan {
     display: flex;
     justify-content: space-between;
     padding: 70px 260px 50px 260px;
+}
+
+.monkey-banan-img {
+    width: 560px;
+    height: 364px;
 }
 
 .fruit-img {
@@ -798,6 +820,11 @@ span {
     cursor: pointer;
     background-color: white;
     color: #F58021;
+}
+
+.arr-6 {
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 .container-7 {
@@ -933,6 +960,10 @@ span {
     margin-left: 260px;
 }
 
+.arr-7 {
+    margin-left: 10px;
+}
+
 .btn-7 {
     width: 200px;
     height: 50px;
@@ -1034,6 +1065,10 @@ span {
     display: flex;
     justify-content: center;
     padding-top: 25px;
+}
+
+.ar-8 {
+    margin-left: 10px;
 }
 
 .part-2 {
@@ -1365,6 +1400,8 @@ footer {
 
     .donate-now {
         margin-top: 100px;
+        width: 240px;
+        height: 74px;
     }
 
     .flexx {
