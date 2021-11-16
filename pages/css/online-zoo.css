@@ -694,7 +694,8 @@ span {
     font-size: 18px;
     font-weight: 600;
     font-style: normal;
-    border: 1px solid black;
+    border: 1px solid #20113D;
+    color: #20113D;
     border-radius: 5px;
     background-color: transparent;
     width: 360px;
@@ -1131,6 +1132,7 @@ footer {
 .btn-foot {
     width: 320px;
     height: 70px;
+    font-weight: 600;
     background-color: transparent;
     border: 1px solid white;
     border-radius: 5px;
@@ -1144,6 +1146,7 @@ footer {
 
 .arrow-foot {
     margin-left: 10px;
+    font-size: 23px ;
 }
 
 .hr-8 {
