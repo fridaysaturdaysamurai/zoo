@@ -123,6 +123,10 @@ i:hover {
     margin-left: 40px;
 }
 
+.hamburger {
+    display: none;
+}
+
 .container-2 {
     height: 800px;
     background-image: url(/assets/img/Background.png);
@@ -780,6 +784,7 @@ span {
     font-size: 26px;
     margin-bottom: 50px;
     width: 500px;
+    text-transform: none;
 }
 
 .p-6-1 {
@@ -1095,6 +1100,10 @@ span {
     padding-top: 25px;
 }
 
+.slider {
+    display: none;
+}
+
 .ar-8 {
     margin-left: 10px;
 }
@@ -1147,6 +1156,18 @@ footer {
 .arrow-foot {
     margin-left: 10px;
     font-size: 23px ;
+}
+
+.logo-block{
+    display: flex;
+}
+
+.logo-1 {
+    margin-left: 65px;
+}
+
+.logo-2 {
+    margin-left: 65px;
 }
 
 .hr-8 {
@@ -1544,6 +1565,10 @@ footer {
         justify-content: center;
     }
 
+    .slider {
+        display: none;
+    }
+
     .tv {
         height: 670px;
         width: 1200px;
@@ -1583,15 +1608,539 @@ footer {
         margin-left: 40px;
     }
 
+    .logo-1 {
+        margin-left: 30px;
+    }
+
+    .logo-2{
+        margin-left: 30px;
+    }
+
     .logo-end {
         margin-right: 40px;
     }
+}
 
+@media(min-width: 640px) and (max-width: 1199px) {
 
+    body {
+        height: 100vh;
+    }
 
+    header {
+        height: 110px;
+        padding: 0;
+        margin: 30px 20px 30px 20px;
+    }
 
+    .right-p {
+        display: none;
+    }
 
+    .hamburger {
+        display: block;
+    }
 
+    .container-2 {
+        height: 100%;
+        background-size: cover;
+    }
+
+    .flex-2 {
+        margin: 0px 0px 100px 0px;
+    }
+
+    h1 {
+        margin: 50px 0 30px 20px;
+        font-size: 72px;
+        font-weight: 800;
+    }
+
+    .p2 {
+        margin: 30px 0px 0px 20px;
+    }
+
+    .btn-2 {
+        margin: 30px 0px 50px 20px;
+    }
+
+    .container-3 {
+        margin-top: 100px;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-cont-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        width: 642px;
+    }
+
+    .welcome-zoo {
+        width: 642px;
+    }
+
+    .text-3-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h-2-1 {
+        margin: 30px 0px 0px 20px;
+        text-align: left;
+    }
+
+    .p-3-1 {
+        margin: 30px 0px 0px 20px;
+        text-align: left;
+    }
+
+    .eagle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 100px 0;
+        width: 640px;
+        padding: 0;
+    }
+
+    .eagle-img {
+        margin: 50px 0 0 0;
+        width: 640px;
+        height: 425px;
+    }
+
+    .text-3-2 {
+        margin:0;
+    }
+
+    .h-2-2 {
+        margin: 30px 0px 0px 20px;
+    }
+
+    .p-3-2 {
+        margin: 30px 0px 0px 20px;
+    }
+
+    .container-4 {
+        padding: 0;
+        width: 100%;
+        height: 459px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .zoodonate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 640px;
+    }
+
+    h3 {
+        padding: 0;
+        margin: 50px 38px 0px 37px;
+        text-align: center;
+    }
+
+    .p-4-1 {
+        margin: 30px 20px 0 20px;
+        text-align: center;
+        line-height: 27px;
+        font-size: 18px;
+        width: 600px;
+    }
+
+    .donate-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .p-4-2 {
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    .inp {
+        margin-top: 10px;
+    }
+
+    .pets {
+        padding: 0;
+        margin: 100px 123px 0 123px;
+        text-align: center;
+    }
+
+    .p-5 {
+        text-align: center;
+        font-weight: 600;
+        margin: 30px 20px 0 20px;
+        width: 600px;
+    }
+
+    .arrow-5 {
+        display: none;
+    }
+
+    .animals {
+        display: none;
+    }
+
+    .animals-1 {
+        padding: 0;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sam {
+        display: none;
+    }
+
+    .tiger {
+        display: none;
+    }
+
+    .liz {
+        width: 290px;
+        height: 600px;
+        margin-left: 20px;
+    }
+
+    .liz-img {
+        width: 290px;
+    }
+
+    .lion {
+        width: 290px;
+        height: 600px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .lion-img {
+        width: 290px;
+    }
+
+    .choose {
+        margin-top: 50px;
+        width: 345px;
+    }
+
+    .container-6 {
+        padding-top: 80px;
+    }
+
+    .h-2-6 {
+        padding: 0;
+        margin: 0px 119px 0 100px;
+    }
+
+    .hr1 {
+        padding: 0;
+        margin: 50px 20px 0 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hr-1 {
+        width: 80%;
+    }
+
+    .monkey {
+        padding: 0;
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-p6 {
+        display: flex;
+        align-items: center;
+    }
+
+    .monkey-without-banan {
+        width: 640px;
+        height: 417px;
+        margin-top: 50px;
+    }
+
+    .heartgreen {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .h-3-6 {
+        margin: 30px 0 0 0;
+    }
+
+    .p-6-1 {
+        text-align: center;
+        margin: 30px 20px 0 20px;
+    }
+
+    .banan {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .make-donate {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banan-img {
+        width: 640px;
+        height: 417px;
+        margin-top: 50px;
+    }
+
+    .money-img {
+        margin: 50px 0 0 0;
+    }
+
+    .p-6-1 {
+        margin: 30px 20px 0px 20px;
+    }
+
+    .monkey-banan-img {
+        width: 640px;
+        height: 417px;
+        margin-top: 50px;
+    }
+
+    .monkey-banan {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+    }
+
+    .donation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fruit-img {
+        margin: 50px 0 0 0;
+    }
+
+    .donate-now {
+        margin-top: 76px;
+        margin-bottom: 106px;
+    }
+
+    .container-7 {
+        padding-top: 80px;
+    }
+
+    .flex-left-7 {
+        width: 100%;
+    }
+
+    .left-7 {
+        padding: 0;
+    }
+
+    .first-2 {
+        display: none;
+    }
+
+    .flexx {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h-3-7 {
+        margin: 0 0 0 20px;
+        width: 440px;
+        text-align: left;
+    }
+
+    .p-3-7 {
+        margin: 30px 0 0 20px;
+    }
+
+    .block-1 {
+        margin-left: 20px;
+        padding-bottom: 0;
+    }
+
+    .block-2 {
+        padding-bottom: 0;
+    }
+
+    .first-1 {
+        margin-top: 50px;
+        overflow: hidden;
+    }
+
+    .june {
+        overflow: hidden;
+    }
+
+    .strelki {
+        display: none;
+    }
+
+    .knopka-7 {
+        margin: 0;
+    }
+
+    .btn-7 {
+        padding: 0;
+        width: 368px;
+        margin: 50px 0 0 20px;
+    }
+
+    .text-8 {
+        padding-top: 80px;
+    }
+
+    .h-2-8 {
+        margin-bottom: 30px;
+        width: 640px;
+    }
+
+    .p-2-8 {
+        width: 600px;
+    }
+
+    .koala-8 {
+        display: none;
+    }
+
+    .panda-8-tiger {
+        display: none;
+    }
+
+    .part-1 {
+        padding: 0;
+    }
+
+    .part-2 {
+        display: none;
+        padding: 0;
+    }
+
+    .part-2-2 {
+        display: none;
+    }
+
+    .panda-8-0 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 300px;
+        margin-top: 70px;
+    }
+
+    .img-border {
+        width: 300px;
+        height: 300px;
+        border-radius: 5px 0 0 5px;
+    }
+
+    .column-8 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .panda-p-8 {
+        padding: 0;
+        width: 260px;
+        margin: 66px 20px 0 20px;
+    }
+
+    .feed-8 {
+        padding: 0;
+        margin: 46px 0 60px 0;
+    }
+
+    .slider {
+        display: block;
+        margin-top: 50px;
+        height: 8px;
+        width: 80px;
+    }
+
+    .choose-favorite {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tv {
+        width: 100%;
+        height: 379px;
+        margin: 0;
+        padding-bottom: 100px;
+    }
+
+    footer {
+        height: 545px;
+        width: 100%;
+    }
+
+    .foot {
+        padding: 0;
+        height: 346px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .hr-8 {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .foot-2 {
+        padding: 0;
+    }
+
+    .ul-8 {
+        display: flex;
+        flex-direction: column-reverse ;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .logo-end {
+        margin-bottom: 30px;
+    }
 
 
 
