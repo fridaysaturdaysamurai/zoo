@@ -287,6 +287,10 @@ h3 {
     text-align: center;
 }
 
+input::placeholder {
+    padding: 1em;
+}
+
 .donate:focus {
     outline: none;
     border-color: #F58021;
@@ -1364,6 +1368,10 @@ footer {
         width: 289px;
     }
 
+    input::placeholder {
+        padding: 2em;
+    }
+
     h3 {
         padding-bottom: 0;
         margin-bottom: 30px;
@@ -1818,6 +1826,11 @@ footer {
         width: 289px;
     }
 
+    input::placeholder {
+        padding: 2em;
+    }
+
+    
     h3 {
         padding: 0;
         margin: 50px 38px 0px 37px;
